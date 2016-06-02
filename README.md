@@ -10,4 +10,4 @@ Such as:
 
 [Php-Academy Kyiv]: <http://php-academy.kiev.ua>
 [Lesson 1]: <https://github.com/SerhiiKravchenko/homework/tree/master/lesson1>
-[lesson 2]:
+[lesson 2]: <https://github.com/SerhiiKravchenko/homework/tree/master/lesson2>
