@@ -6,7 +6,7 @@ Such as:
 
 * [Lesson 1] - GIT, NPM, HTML
 * [Lesson 2] - CSS
-* [Lesson 2] - Javascript Ex.
+* [Lesson 3] - Javascript Ex.
 
 
 [Php-Academy Kyiv]: <http://php-academy.kiev.ua>
