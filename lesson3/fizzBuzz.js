@@ -1,24 +1,19 @@
 'use strict'
 
-var firstCondition = [];
-var secondCondition = [];
+var arr = [];
 
 for (var i=0; i<100; i++){
-    if ((i+1)%3==0 && !((i+1)%5==0)) {
-        firstCondition[i]="Fizz"
-    }else if ((i+1)%5==0 && !((i+1)%3==0)) {
-        firstCondition[i]="Buzz"
+    if ((i+1)%3==0){
+		if ((i+1)%5==0){
+			arr[i]="FizzBuzz"
+		}else{arr[i]="Fizz"}
+		
+    }else if ((i+1)%5==0) {
+        arr[i]="Buzz"
     } else {
-        firstCondition[i]=i+1;
-    }
-}
-for (var i=0; i<100; i++){
-    if ((i+1)%3==0 || (i+1)%5==0) {
-        secondCondition[i]="FizzBuzz"
-    } else {
-        secondCondition[i]=i+1;
+        arr[i]=i+1;
     }
 }
 
-console.log(firstCondition);
-console.log(secondCondition);
+
+console.log(arr);
